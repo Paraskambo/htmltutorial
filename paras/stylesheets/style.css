@@ -1,3 +1,53 @@
 p {
     font-size: 50px;
 }
+
+.paragraph-class {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+#paragraph-5 {
+    background-color: lightgreen;
+    color: aliceblue;
+    text-align: right;
+    padding: .5em;
+}
+
+#paragraph-6 {
+    background-color: skyblue;
+    color: red;
+    text-align: left;
+    padding: 1.5em;
+}
+
+.container {
+    width: 80%;
+    height: auto;
+    margin: 1em auto 1em auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
+.container .row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 4em;
+    padding-bottom: 2em;
+}
+.container .row button {
+    background: rgb(218, 101, 101);
+    border: none;
+    padding: 1em;
+    color: white;
+    border-radius: 5px;
+}
+
+.container .row button:hover {
+    cursor: pointer;
+}

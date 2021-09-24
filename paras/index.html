@@ -39,5 +39,84 @@
 <a href="user.html">Paras Page</a><br/><br/>
 
 <button onclick="document.location='user.html'">ParaS PAGE</button>
+
+<!---->
+<p class="paragraph-class">
+    paragraph 1
+</p>
+<p class="paragraph-class">
+    paragraph 2
+</p>
+<p class="paragraph-class">
+    paragraph 3
+</p>
+<p class="paragraph-class">
+    paragraph 4
+</p>
+
+<p id="paragraph-5">
+    paragraph 5
+</p>
+<p id="paragraph-6">
+    paragraph 6
+</p>
+
+<p id='demo'>
+
+</p>
+
+<strong id="date-time">
+
+</strong>
+
+
+
+</h1>
+<br/>
+<button onclick="document.getElementById('date-time').innerHTML = Date()">Click Me</button>
+
+<br/>
+<br/>
+<h1 id="vipin">Paras</h1>
+<button onclick="document.getElementById('vipin').innerHTML = 'Vipin';">
+    Show My Name
+</button>
+
+
+
+<div class="container">
+ 
+    <img id="bulb-image" src="images/pic_bulboff (1).gif" width="200px" height="auto"/>
+
+    <div class="row">
+        <button onclick="document.getElementById('bulb-image').src= 'images/pic_bulbon.gif'">Turn on the light</button>
+        
+        <button onclick="document.getElementById('bulb-image').src= 'images/pic_bulboff (1).gif'">Turn off the light</button>
+    </div>
+</div>
+
+
+
+
+
+<div class="container">
+ 
+    <img id="bulb-image-id" src="images/pic_bulboff (1).gif" width="200px" height="auto"/>
+
+    <div class="row">
+        <button onclick="turnOnTheBulb()">Turn on the light</button>
+        
+        <button onclick="switchOffTheLight()">Turn off the light</button>
+    </div>
+</div>
+
+
+<p id="total">
+
+</p>
+
+
+
+<script src="javascript/script.js"></script>
 </body>
 </html>
